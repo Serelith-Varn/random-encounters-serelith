@@ -1,0 +1,25 @@
+.re-border {
+    border: 1px solid var(--color-underline-header);
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+#random-encounters form .form-group .form-fields > * {
+	flex:none;
+}
+
+#random-encounters .collapse-button:hover {
+    text-shadow: 0 0 5px red
+}
+
+#random-encounters .remove-encounter:hover {
+    text-shadow: 0 0 5px red
+}
+
+#random-encounters input.encounter-name {
+    text-align: center;
+    font-weight: bold;
+	flex:1 !important;
+	display: block;
+}

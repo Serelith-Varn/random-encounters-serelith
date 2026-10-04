@@ -1,0 +1,37 @@
+{
+	"id": "random-encounters-serelith",
+	"title": "Random Encounters (Serelith Varn Fork)",
+	"description": "Fork of lostix's Random Encounters module, updated for Foundry VTT Version 14 compatibility[cite: 6, 7].",
+	"version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "14"
+  },
+  "systems": ["dnd5e"],
+  "url": "https://github.com/Serelith-Varn/random-encounters-serelith",
+  "manifest": "https://raw.githubusercontent.com/Serelith-Varn/random-encounters-serelith/main/module.json",
+  "download": "https://github.com/Serelith-Varn/random-encounters-serelith/archive/refs/heads/main.zip",
+	"authors": [
+		{
+			"name": "Serelith Varn",
+			"url": ""
+		},
+		{
+			"name": "lostix (Original)",
+			"url": "https://github.com/veevelder/random-encounters"
+		}
+	],
+	"esmodules": [
+		"scripts/random-encounters.js"
+	],
+	"styles": [
+		"styles/random-encounters.css"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	]
+}
